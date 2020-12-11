@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.TestRunner.AnnotationClass">
+        <methods>
+          <include name="m7"/>
+          <include name="m2"/>
+          <include name="m8"/>
+          <include name="m6"/>
+          <include name="m3"/>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- com.TestRunner.AnnotationClass -->
+      <class name="com.TestRunner.TestngRealtime">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="attachtestexecutionintoreport"/>
+        </methods>
+      </class> <!-- com.TestRunner.TestngRealtime -->
+      <class name="com.TestRunner.Execution">
+        <methods>
+          <include name="run"/>
+        </methods>
+      </class> <!-- com.TestRunner.Execution -->
+      <class name="com.TestCases.LoginModule">
+        <methods>
+          <include name="createreport"/>
+        </methods>
+      </class> <!-- com.TestCases.LoginModule -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
